@@ -86,7 +86,7 @@ void main_loop() {}
 int main(int argc, char* argv[]) {
 	InitAudioBackend(44100, 1024, 2);
 
-    emscripten_set_main_loop(main_loop, 0, 1);
+	emscripten_set_main_loop(main_loop, 0, 1);
 
-    return 0;
+	return 0;
 }
